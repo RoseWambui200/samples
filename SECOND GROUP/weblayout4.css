@@ -1,0 +1,45 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    margin-top: 300px;
+    
+}
+p1{
+    color: brown;
+   font-weight: 100;
+   font-size: 20px;
+}
+
+.home:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.contact:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.location:hover{color: orange;
+    text-decoration: underline;}
+.submit:hover{
+color: green;
+}
+body{
+    background-image: url(/images/seagull-g13c182817_1280.jpg);
+    max-height: 400px;
+   background-attachment: scroll;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}

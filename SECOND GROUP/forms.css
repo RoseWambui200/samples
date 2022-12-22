@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(218, 184, 218);
+    font-size: medium;
+    display: table-row;
+}
+.section_one{}
+form{
+    background-color: rgb(0, 255, 195);
+    display: flex;
+    flex-direction: row;
+    
+}
+.container_one{
+    border-style:hidden;
+    display: flex;
+
+}
+.container_two{
+    border-style: hidden;
+    display:flex;
+}
+.container_three{
+    border-style: hidden;
+    display: flex;
+}
+.gender{
+ border-style: hidden;
+ display: inline;
+}
+.container_four{
+    border-style: hidden;
+    display: flex;
+}
+ 

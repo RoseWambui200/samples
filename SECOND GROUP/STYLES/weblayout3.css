@@ -1,0 +1,47 @@
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    height: 300px;
+    background-color: gray;
+    background-image: url(/images/sparkling-wine-7626984__480.webp);
+    
+}
+body{
+    background-image: url(/images/iceland-g4d4deda6d_1920.jpg);
+    background-size: auto;
+    z-index: -1;
+}
+.navigation{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    background-color: beige;
+}
+.content{
+    max-height: 200px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+    
+   
+}
+.button{
+    background-color: green;
+}
+
+button:hover{
+    color: blue;
+}

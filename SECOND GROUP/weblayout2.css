@@ -1,0 +1,17 @@
+.container{
+    background-color: peru;
+    border-style: double;
+
+}
+
+h1{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 0px;
+
+}
+
+.footer{
+    background-color: grey;
+    text-align: start;
+}

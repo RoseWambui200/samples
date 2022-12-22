@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form actions="results.html" method="get" enctype="multipart/form-data">
+        <div class="section_one"></div>
+        <div>
+            <label for="firstname">firstname:</label>
+            <input type="text" name="name" id="firstname" required
+            />
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for=lastname>Lastname:</label>
+            <input type="text" name="name" id="lastname" required
+            />
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="phonenumber">phoneNumber:</label>
+            <input type="text" name="phonenumber" id="phonenumber" required
+            />
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required
+            />
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            Gender
+        </div>
+        <div>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+        </div>
+        <div>
+            <label for="bisexual">Bisexual</label>
+            <input type="radio" name="gender" id="bisexual" value="bisexual" required>
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="status">Status</label>
+            <select name="status" id="status">
+                <option label="single">Single</option>
+                <option label="married">married</option>
+                <option label="divorced">divorced</option>
+                <option label="engaged">engaged</option>
+            </select>
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="bio"></textarea>
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="name">Age:</label>
+            <input type="number" name="age" id="name" min="18" max="150" step="1" required
+            />
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file">
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required
+            />
+        </div>
+        <br>
+        <div class="section_one"></div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <div class="section_one"></div>
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+
+        
+    </form>
+</body>
+</html>
